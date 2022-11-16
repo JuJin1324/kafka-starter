@@ -1,5 +1,10 @@
 # kafka-starter
 
+## macOS
+### Homebrew
+> client 용도로 kafka 설치  
+> `brew install kafka`  
+
 ## Docker
 ### Docker compose
 > `docker-compose up -d` 명령어를 통한 실행
@@ -23,3 +28,6 @@
 > ...
 > ```  
 
+## 확인
+### Topic list
+> macOS 의 터미널에서 확인: `kafka-topics --bootstrap-server localhost:9092 --list`    
