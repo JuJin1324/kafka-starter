@@ -2,7 +2,7 @@ version: '3'
 
 services:
     zookeeper:
-        image: zookeeper
+        build: ./zookeeper
         container_name: kafka-starter-zookeeper
         restart: always
         ports:
